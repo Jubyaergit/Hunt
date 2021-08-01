@@ -1,0 +1,1082 @@
+@media(min-width:320px) and (max-width: 575px) {
+
+    nav img{
+        width: 90%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 30px;
+    }
+     
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li{
+        padding: 5px 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay h1 {
+        font-size: 52px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 14px 14px;
+        font-size: 14px;
+    }
+
+    #banner-part .banner .overlay a:last-child {
+        padding: 14px 28px;
+    }
+
+    .navbar {
+        border-bottom: 0px solid #fec70088;
+    }
+
+    #banner-part .banner .overlay {
+        padding: 150px 0;
+    }
+    #banner-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #about-part {
+        margin-top: 40px;
+    }
+
+    #about-part .large-device{
+        display: none;
+    }
+
+    #about-part .small-device{
+        display: block;
+    }
+
+    #about-part .round .img {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+
+    #about-part .round {
+        width: auto;
+        height: auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    #about-part .round .img .overlay {
+        border-radius: 0;
+        opacity: 0;
+    }
+
+    #about-part .round .img img {
+        border-radius: 0;
+    }
+
+    #about-part .left .shape {
+        display: none;
+    }
+
+    #about-part .right .shape {
+        display: none;
+    }
+
+    #about-part .top .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .dot, 
+    #about-part .top .dot, 
+    #about-part .left .dot, 
+    #about-part .right .dot{
+        display: none;
+    }
+
+    #about-part .left{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .bottom, 
+    #about-part .top, 
+    #about-part .right{
+        margin: 20px 0;
+    }
+
+    #portfolio-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #portfolio-part .overlay {
+        padding: 70px 0;
+    }
+
+    #portfolio-part .overlay .item .img .img-overlay i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 20px;
+    }
+
+    #portfolio-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #portfolio-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part {
+        padding: 70px 0px;
+    }
+
+    #service-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #service-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part .service {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        margin-top: -80px;
+    }
+
+    #service-part .service .details{
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .slick-center .img .round {
+        transform: scale(.8);
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service .title h3 {
+        font-size: 25px;
+    }
+
+    #service-part .service:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    #service-part .service:nth-child(2n) .title {
+        justify-content: center;
+    }
+
+    #service-part .line {
+        display: none;
+    }
+
+    #team-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #team-part .overlay .round {
+        height: 85px;
+        width: 85px;
+    }
+
+    #team-part .overlay .details {
+        padding: 21px;
+        margin-top: 30px;
+        margin-left: 6px;
+    }
+
+    #team-part .overlay .details p::after {
+        height: 30px;
+        width: 30px;
+        top: 0;
+        left: 50%;
+    }
+
+    #team-part .overlay {
+        padding: 75px 0;
+    }
+
+    #team-part .overlay .details p {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    #pricing-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #pricing-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 17px;
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .align {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px;
+    }
+
+    #counter-part .overlay {
+        padding: 80px 0;
+    }
+
+    #member-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #member-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    #member-part .item .img .overlay {
+        height: 100%;
+        opacity: 1;
+    }
+
+    #member-part .item .text .icon {
+        margin-top: 10px;
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .align {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo img {
+        transform: rotate(0);
+    }
+}
+
+
+
+
+@media(min-width:576px) and (max-width: 767px) {
+
+    nav img{
+        width: 90%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 30px;
+    }
+     
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li{
+        padding: 5px 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay h1 {
+        font-size: 52px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 14px 14px;
+        font-size: 14px;
+    }
+
+    #banner-part .banner .overlay a:last-child {
+        padding: 14px 28px;
+    }
+
+    .navbar {
+        border-bottom: 0px solid #fec70088;
+    }
+
+    #banner-part .banner .overlay {
+        padding: 150px 0;
+    }
+    #banner-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #about-part {
+        margin-top: 40px;
+    }
+
+    #about-part .large-device{
+        display: none;
+    }
+
+    #about-part .small-device{
+        display: block;
+    }
+
+    #about-part .round .img {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+
+    #about-part .round {
+        width: auto;
+        height: auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    #about-part .round .img .overlay {
+        border-radius: 0;
+        opacity: 0;
+    }
+
+    #about-part .round .img img {
+        border-radius: 0;
+    }
+
+    #about-part .left .shape {
+        display: none;
+    }
+
+    #about-part .right .shape {
+        display: none;
+    }
+
+    #about-part .top .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .dot, 
+    #about-part .top .dot, 
+    #about-part .left .dot, 
+    #about-part .right .dot{
+        display: none;
+    }
+
+    #about-part .left{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .bottom, 
+    #about-part .top, 
+    #about-part .right{
+        margin: 20px 0;
+    }
+
+    #portfolio-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #portfolio-part .overlay {
+        padding: 70px 0;
+    }
+
+    #portfolio-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #portfolio-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part {
+        padding: 70px 0px;
+    }
+
+    #service-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #service-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part .service {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        margin-top: -80px;
+    }
+
+    #service-part .service .details{
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .slick-center .img .round {
+        transform: scale(.8);
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service .title h3 {
+        font-size: 25px;
+    }
+
+    #service-part .service:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    #service-part .service:nth-child(2n) .title {
+        justify-content: center;
+    }
+
+    #service-part .line {
+        display: none;
+    }
+
+    #team-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #team-part .overlay .round {
+        height: 100px;
+        width: 100px;
+    }
+
+    #team-part .overlay .details {
+        padding: 21px;
+        margin-top: 30px;
+        margin-left: 6px;
+    }
+
+    #team-part .overlay .details p::after {
+        height: 30px;
+        width: 30px;
+        top: 0;
+        left: 50%;
+    }
+
+    #team-part .overlay {
+        padding: 75px 0;
+    }
+
+    #team-part .overlay .details p {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    #pricing-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #pricing-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 17px;
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .align {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px;
+    }
+
+    #counter-part .overlay {
+        padding: 80px 0;
+    }
+
+    #counter-part .overlay .item h2 {
+        font-size: 35px;
+    }
+
+    #member-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #member-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    #member-part .item .img .overlay {
+        height: 100%;
+        opacity: 1;
+    }
+
+    #member-part .item .text .icon {
+        margin-top: 10px;
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .align {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo img {
+        transform: rotate(0);
+    }
+
+    #footer-part .location i::after {
+        display: none;
+    }
+    #footer-part .mail i::after {
+        display: none;
+    }
+    #footer-part .phone i::after {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width: 991px) {
+
+    nav img{
+        width: 90%;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 30px;
+    }
+     
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li{
+        padding: 5px 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay h1 {
+        font-size: 52px;
+    }
+
+    #banner-part .banner .overlay a {
+        padding: 14px 14px;
+        font-size: 14px;
+    }
+
+    #banner-part .banner .overlay a:last-child {
+        padding: 14px 28px;
+    }
+
+    .navbar {
+        border-bottom: 0px solid #fec70088;
+    }
+
+    #banner-part .banner .overlay {
+        padding: 150px 0;
+    }
+    #banner-part{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #about-part {
+        margin-top: 40px;
+    }
+
+    #about-part .large-device{
+        display: none;
+    }
+
+    #about-part .small-device{
+        display: block;
+    }
+
+    #about-part .round .img {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+    }
+
+    #about-part .round {
+        width: auto;
+        height: auto;
+        border: 0;
+        border-radius: 0;
+    }
+
+    #about-part .round .img .overlay {
+        border-radius: 0;
+        opacity: 0;
+    }
+
+    #about-part .round .img img {
+        border-radius: 0;
+    }
+
+    #about-part .left .shape {
+        display: none;
+    }
+
+    #about-part .right .shape {
+        display: none;
+    }
+
+    #about-part .top .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .shape{
+        display: none;
+    } 
+
+    #about-part .bottom .dot, 
+    #about-part .top .dot, 
+    #about-part .left .dot, 
+    #about-part .right .dot{
+        display: none;
+    }
+
+    #about-part .left{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #about-part .bottom, 
+    #about-part .top, 
+    #about-part .right{
+        margin: 20px 0;
+    }
+
+    #portfolio-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #portfolio-part .overlay {
+        padding: 70px 0;
+    }
+
+    #portfolio-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #portfolio-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part {
+        padding: 70px 0px;
+    }
+
+    #service-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #service-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    #service-part .service {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        margin-top: -80px;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+    }
+
+    #service-part .slick-center .img .round {
+        transform: scale(1);
+    }
+
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service .title h3 {
+        font-size: 25px;
+    }
+
+    #service-part .service:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    #service-part .service:nth-child(2n) .title {
+        justify-content: center;
+    }
+
+    #service-part .line {
+        display: none;
+    }
+
+    #team-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #team-part .overlay .round {
+        height: 100px;
+        width: 100px;
+    }
+
+    #team-part .overlay .details {
+        padding: 21px;
+        margin-top: 30px;
+        margin-left: 6px;
+    }
+
+    #team-part .overlay .details p::after {
+        height: 30px;
+        width: 30px;
+        top: 0;
+        left: 50%;
+    }
+
+    #team-part .overlay {
+        padding: 75px 0;
+    }
+
+    #team-part .overlay .details p {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    #pricing-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #pricing-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 17px;
+    }
+
+    #pricing-part .center{
+        margin: 0 auto;
+    }
+
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .align {
+        transform: rotate(0);
+    }
+
+    #counter-part .overlay .item {
+        margin: 10px;
+    }
+
+    #counter-part .overlay {
+        padding: 80px 0;
+    }
+
+    #counter-part .overlay .item h2 {
+        font-size: 35px;
+    }
+
+    #member-part .title p {
+        padding: 0;
+        font-size: 11px;
+        margin-bottom: 45px;
+    }
+
+    #member-part .title h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    #member-part .item .img .overlay {
+        height: 100%;
+        opacity: 1;
+    }
+
+    #member-part .item .text .icon {
+        margin-top: 10px;
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #sponsor-part .align {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo {
+        transform: rotate(0);
+    }
+
+    #footer-part .logo img {
+        transform: rotate(0);
+    }
+
+    #footer-part .location i::after {
+        display: none;
+    }
+    #footer-part .mail i::after {
+        display: none;
+    }
+    #footer-part .phone i::after {
+        display: none;
+    }
+}
+
+
+
+
+
+@media(min-width:992px) and (max-width: 1199px) {
+    #about-part .round {
+        width: 280px;
+        height: 280px;
+    }
+
+    #about-part .round .img {
+        width: 260px;
+        height: 260px;
+    }
+
+    #about-part .right {
+        margin: 20px 0;
+    }
+
+    #about-part .left {
+        margin: 20px 0;
+    }
+
+    #about-part .left .dot {
+        right: -46px;
+    }
+
+    #about-part .right .dot {
+        left: -32px;
+    }
+
+    #team-part .overlay .details p {
+        font-size: 14px;
+    }
+
+    #team-part .overlay .details {
+        padding: 40px;
+    }
+
+    #team-part .overlay .details p::after {
+        height: 40px;
+        width: 40px;
+    }
+
+    #team-part .overlay .round {
+        height: 90px;
+        width: 90px;
+        margin-left: 28px;
+    }
+
+    #team-part .overlay .details {
+        margin-top: 110px;
+    }
+
+    #counter-part .overlay .align {
+        transform: rotate(-9.6deg);
+    }
+
+    #sponsor-part .align {
+        transform: rotate(-9deg);
+    }
+
+}
+
+
+
+
+
+
+
+@media(min-width:1200px) and (max-width: 1399px) {
+
+    #about-part .right {
+        margin: 80px 20px;
+    }
+
+    #about-part .right .dot {
+        left: -42px;
+    }
+
+    #about-part .left {
+        margin: 80px -20px;
+    }
+
+    #about-part .left .dot {
+        right: -60px;
+    }
+        
+    #team-part .overlay .details p {
+        font-size: 14px;
+    }
+
+    #team-part .overlay .details {
+        padding: 40px;
+    }
+
+    #team-part .overlay .details p::after {
+        height: 40px;
+        width: 40px;
+    }
+
+    #team-part .overlay .round {
+        height: 90px;
+        width: 90px;
+        margin-left: 28px;
+    }
+
+    #team-part .overlay .details {
+        margin-top: 135px;
+    }
+
+    #counter-part .overlay .align {
+        transform: rotate(-7.6deg);
+    }
+
+    #sponsor-part .align {
+        transform: rotate(-7.5deg);
+    }
+
+
+}
+
