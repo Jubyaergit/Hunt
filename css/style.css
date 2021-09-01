@@ -440,6 +440,7 @@ nav ul li .active{
     background: url(../images/portfolio-bg.jpg) no-repeat center;
     background-size: cover;
     clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
+    padding: 10px 0;
 }
 
 #portfolio-part .title{
@@ -543,15 +544,15 @@ nav ul li .active{
     text-align: center;
 }
 
-#service-part .line{
-    background: url(../images/border.png);
-    height: 950px;
-    width: 1px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(50%);
-    margin-top: 300px;
+#service-part .line {
+	background: url(../images/border.png);
+	height: 1000px;
+	width: 1px;
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(50%);
+	margin-top: 300px;
 }
 
 #service-part .title h3{
@@ -641,6 +642,53 @@ nav ul li .active{
     font-size: 30px;
 }
 
+#service-part .service-prev-icon{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: linear .4s;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#service-part .service-prev-icon:hover{
+    background: #fec600;
+    border: 2px solid #fec600;
+}
+
+#service-part .service-next-icon{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: linear .4s;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-45%);
+}
+
+#service-part .service-next-icon:hover{
+    background: #fec600;
+    border: 2px solid #fec600;
+}
+
+
+
+
 /* =================================
     Service end
 ==================================== */
@@ -709,7 +757,7 @@ nav ul li .active{
 #team-part .overlay .details p::after{
     height: 50px;
     width: 50px;
-    background: red;
+    background: rgb(211, 211, 211);
     position: absolute;
     top: 50%;
     left: 0;
@@ -717,6 +765,50 @@ nav ul li .active{
     transform: translate(-50%,-50%) rotate(45deg);
 }
 
+
+#team-part .img-prev-icon{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 32px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: linear .4s;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#team-part .img-prev-icon:hover{
+    background: #fec600;
+    border: 2px solid #fec600;
+}
+
+#team-part .img-next-icon{
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: linear .4s;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-45%);
+}
+
+#team-part .img-next-icon:hover{
+    background: #fec600;
+    border: 2px solid #fec600;
+}
 
 /* =================================
     Team end
@@ -1045,9 +1137,13 @@ nav ul li .active{
 }
 
 #sponsor-part .item{
-    background: red;
-    height: 200px;
+    background: #f1f1f1;
+    height: 120px;
     margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444444;
 }
 /* =================================
     Sponsor end
@@ -1097,7 +1193,6 @@ nav ul li .active{
     right: 0;
     top: 0;
     content: "";
-
 }
 
 #footer-part .location i{

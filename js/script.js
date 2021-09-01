@@ -113,6 +113,9 @@ $(".srevice-slider").slick({
     vertical: true,
     centerMode: true,
     centerPadding: "0",
+    focusOnSelect: true,
+    prevArrow: '<i class="fas fa-angle-up service-prev-icon"></i>',
+    nextArrow: '<i class="fas fa-angle-down service-next-icon"></i>',
     responsive: [
         {
           breakpoint: 992,
@@ -153,6 +156,8 @@ $(".img-slider").slick({
     centerMode: true,
     centerPadding: "0",
     asNavFor: ".details-slider",
+    prevArrow: '<i class="fas fa-angle-up img-prev-icon"></i>',
+    nextArrow: '<i class="fas fa-angle-down img-next-icon"></i>',
     responsive: [
       {
         breakpoint: 992,
@@ -259,7 +264,7 @@ $(".sponsor-slider").slick({
     slidesToShow: 5,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
@@ -268,9 +273,18 @@ $(".sponsor-slider").slick({
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 2
         }
       },

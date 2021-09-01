@@ -308,6 +308,15 @@
     #footer-part .logo img {
         transform: rotate(0);
     }
+    #footer-part .mail i::after {
+        display: none;
+    }
+    #footer-part .location i::after {
+        display: none;
+    }
+    #footer-part .phone i::after {
+        display: none;
+    }
 }
 
 
