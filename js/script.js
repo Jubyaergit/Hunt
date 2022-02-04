@@ -1,6 +1,6 @@
-// setTimeout(function(){
-//   $(".preloader").fadeOut()
-// },2000)
+setTimeout(function(){
+  $(".preloader").fadeOut()
+},2000)
 
 $(".backtotop").click(function(){
   $("html,body").animate({
@@ -24,7 +24,7 @@ $(window).scroll(function(){
   }
 })
 
-new WOW().init();
+// new WOW().init();
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -66,7 +66,7 @@ $('a[href*="#"]')
 
 
 $('.js-preloader').preloadinator({
-  minTime: 2000
+  minTime: 1000
 });
 
 $(".banner-slider").slick({
